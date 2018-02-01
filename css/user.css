@@ -1,0 +1,180 @@
+/* This file contains css that overrides bootstrap */
+
+/* Basic style rule to outline and space block-level elements */
+
+body {
+    font-family: Garamond, Helvetica, sans-serif;
+    font-size: 1.2em;
+    margin: 0;
+    color: #333333;
+}
+
+[class*="span"] {
+    background: #eee;
+    margin-bottom: 10px;
+}
+/*header {
+	height: 40px;
+}*/
+
+.container, .row {
+  margin=0;
+}
+header [class*="span"],
+nav [class*="span"] {
+    margin: 0;
+    background: #fff;
+}
+header{
+      font-size: 1.4em;
+}
+header, footer{
+  text-align:center;
+}
+footer{
+  font-size:80%; 
+}
+a{
+  color: blue;
+}
+#banner{
+  font-style: italic;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+#banner2{
+  font-style: italic;
+  font-size: 1.3em;
+  text-align: left;
+}
+#banner3{
+  font-style: italic;
+  font-size: 1.3em;
+  text-align: left;
+}
+
+#primary-navigation{
+  font-weight: bold;
+}
+
+.banner2{
+  font-style: italic;
+  font-size: 1.3em;
+  text-align: left;
+}
+
+.chapter_heading, .section_heading{
+  font-style: italic;
+  font-size: 1.2em;
+  text-align: left;
+  margin: 0;
+}
+
+
+/* Verical menu */
+.vertical-menu {
+    width: 90%;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: blue;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+   /* background-color: #ccc; */
+   /* background-color: #4CAF50;*/
+    /* color: white; */
+    color: blue;
+}
+
+
+/* boxed dic */
+.boxed {
+  border: 0px solid green ;
+  font-size: 0.8em;
+
+}
+
+
+#pdf{
+  border: 1px solid #666;
+} 
+
+/* Basic background colors for responsive break points */
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  //CSS
+  
+}
+
+
+
